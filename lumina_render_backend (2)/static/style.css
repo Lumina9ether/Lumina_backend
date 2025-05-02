@@ -1,0 +1,30 @@
+body {
+    background: black;
+    color: white;
+    font-family: Arial;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+#orb {
+    margin: 50px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #5df, #00f);
+    transition: background 0.5s ease;
+}
+#orb.idle { background: radial-gradient(circle, #555, #222); }
+#orb.thinking { background: radial-gradient(circle, #ff0, #aa0); }
+#orb.speaking { background: radial-gradient(circle, #0f0, #090); }
+
+#mic-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
