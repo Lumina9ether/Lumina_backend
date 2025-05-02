@@ -1,0 +1,1 @@
+console.log("Lumina front-end script loaded.");
