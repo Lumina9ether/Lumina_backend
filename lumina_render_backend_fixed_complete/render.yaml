@@ -1,0 +1,7 @@
+
+services:
+  - type: web
+    name: lumina-backend
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn wsgi:app
