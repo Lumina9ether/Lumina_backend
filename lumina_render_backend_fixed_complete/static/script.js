@@ -1,1 +1,1 @@
-console.log("Lumina script loaded.");
+console.log('Lumina script loaded');
